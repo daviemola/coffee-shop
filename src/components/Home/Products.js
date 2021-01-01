@@ -13,7 +13,7 @@ const getProducts = graphql`
           description
           price
           photo {
-            fluid(maxHeight: 426) {
+            fluid(maxWidth: 50, maxHeight: 40) {
               src
               ...GatsbyContentfulFluid
             }
