@@ -7,7 +7,7 @@ const Contacts = () => {
       <Title title="Contact Us" />
       <div className="row">
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
-          <form action="https://formspree.io/daviemola@gmail.com" method="POST">
+          <form action="https://formspree.io/f/mleooker" method="POST">
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
