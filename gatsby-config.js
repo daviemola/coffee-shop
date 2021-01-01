@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Davie's Coffee Shop`,
     description: `A coffee shop website application that allows coffee lovers to order and get their coffe`,
-    author: `@gatsbyjs`,
+    author: `@daviemola`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
