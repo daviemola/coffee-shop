@@ -5,7 +5,9 @@ import { StaticQuery, graphql } from "gatsby"
 
 const getProducts = graphql`
   {
-    product: allContentfulCoffeeProduct {
+    product: allContentfulCoffeeProduct(
+      filter: { node_locale: { eq: "en-US" } }
+    ) {
       edges {
         node {
           id

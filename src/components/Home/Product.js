@@ -9,7 +9,7 @@ const Product = ({ product }) => {
         <div className="card-body text-center">
           <h6>{product.title}</h6>
           <h6>${product.price}</h6>
-          <button className="btn btn-yellow mt-3 text-capitalize">
+          <button className="btn btn-yellow shadow-none mt-3 text-capitalize">
             add to cart
           </button>
         </div>
